@@ -3,6 +3,24 @@
     padding: 0;
 }
 
-.container {
-    background-color: blue;
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border: 1px solid red;
+}
+
+.navbar_links {
+    display: flex;
+    list-style-type: none;
+
+}
+
+ul a {
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.logo {
+    margin-left: 5%;
 }
