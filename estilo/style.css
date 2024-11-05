@@ -1,24 +1,32 @@
-.teste {
-    background-color: red;
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
-@media screen and (max-width: 600px) {
-    .teste {
-        background-color: aqua;
-    }
+li {
+    float: left;
 }
 
-@media screen and (min-width: 768px) {
-    .teste {
-        background-color: green;
-        text-align: center;
-        color: #fff;
-    }
+li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-size: 17px;
 }
 
-@media screen and (min-width: 1008px) {
-    .teste {
-        background-color: blue;
-        height: 100px;
-    }
+
+.dropdown__content {
+    box-shadow: 0px 4px 8px rgba(0,  0, 0, 0.1);
+    width: 150px;
+    position: absolute;
+}
+
+.dropdown__content a {
+    display: block;
+}
+
+.dropdown, li:hover .dropdown__content {
+    display: block;
 }
